@@ -133,13 +133,19 @@ body {
 footer {
   background-color: #2f303a;
 }
-.adress-city {
+address a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+
+address .adress-city > a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
 }
-.adress-link {
+address .adress-link > a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
