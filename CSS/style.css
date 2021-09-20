@@ -54,6 +54,9 @@ body {
 .header-contacts-item:focus {
   color: var(--acsent-color);
 }
+.header-link:active .header-link:visited {
+  color: #b4f321;
+}
 
 .header-contacts-item {
   font-weight: 500;
