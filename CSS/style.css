@@ -48,6 +48,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--header-text-color);
 }
+.header-list .link.current {
+  color: var(--acsent-color);
+}
+
 .header-link:hover,
 .header-link:focus,
 .header-contacts-item:hover,
@@ -153,4 +157,39 @@ address .adress-link > a {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-logo {
+  color: var(--primary-title-color);
+}
+
+/*----Portfolio-----*/
+.categories-btn {
+  border-radius: 4px;
+  background-color: #f5f4fa;
+
+  columns: var(--secondary-title-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.categories-btn-acsent:hover,
+.categories-btn-acsent:focus {
+  background-color: var(--acsent-color);
+  color: #ffffff;
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+.projects-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
 }
